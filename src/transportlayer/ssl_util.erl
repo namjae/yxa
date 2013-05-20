@@ -24,7 +24,7 @@
 %%--------------------------------------------------------------------
 %% Include files
 %%--------------------------------------------------------------------
--include("config.hrl").
+-include("../config.hrl").
 -ifdef( HAS_OTP_PUB_KEY_HRL ).
 -include_lib("public_key/include/OTP-PUB-KEY.hrl").
 -define(PKIX_MODULE, 'OTP-PUB-KEY').
